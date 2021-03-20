@@ -39,6 +39,15 @@ public class ScriptBase {
 
 
     }
+    @Test
+    public void firebrowser2() throws InterruptedException {
+        System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver");
+        Thread.sleep(5000);
+        driver = new FirefoxDriver();
+        driver.get("http://automationpractice.com/index.php");
+
+
+    }
 
     @Test
     public void chromeBrowsertwo()throws InterruptedException {
