@@ -8,15 +8,15 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 
 public class ScriptBase {
     public WebDriver driver;
 
-
+    @Parameters("browser")
     @BeforeTest
-    public void init(){
-        String browser = "chrome";
+    public void init(String browser){
 
         if (browser.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
@@ -36,9 +36,9 @@ public class ScriptBase {
         }
         driver.get("http://automationpractice.com/index.php");
     }
-    @AfterTest
-    public void endTest(){
-        driver.quit();
-        driver.close();
-    }
+    //@AfterTest
+    //public void endTest(){
+        //driver.quit();
+        //driver.close();
+    //}
 }

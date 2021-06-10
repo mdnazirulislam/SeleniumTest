@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="16" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="42553" started-at="2021-06-10T17:29:54Z" finished-at="2021-06-10T17:30:36Z">
+    <groups>
+    </groups>
+    <test name="/Users/mdnazirulislam/IdeaProjects/SeleniumMavenTest" duration-ms="8361" started-at="2021-06-10T17:29:54Z" finished-at="2021-06-10T17:30:02Z">
+      <class name="loginTest.ValidLoginTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:loginTest.ValidLoginTest@6a5fc7f7]" name="init" is-config="true" duration-ms="8130" started-at="2021-06-10T17:29:54Z" finished-at="2021-06-10T17:30:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifySignInButtonDisplayed()[pri:0, instance:loginTest.ValidLoginTest@6a5fc7f7]" name="verifySignInButtonDisplayed" duration-ms="205" started-at="2021-06-10T17:30:02Z" finished-at="2021-06-10T17:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInButtonDisplayed -->
+      </class> <!-- loginTest.ValidLoginTest -->
+    </test> <!-- /Users/mdnazirulislam/IdeaProjects/SeleniumMavenTest -->
+    <test name="over view page" duration-ms="8331" started-at="2021-06-10T17:30:07Z" finished-at="2021-06-10T17:30:15Z">
+      <class name="loginTest.OverViewTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="init" is-config="true" duration-ms="7646" started-at="2021-06-10T17:30:07Z" finished-at="2021-06-10T17:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyOverViewSpecials()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewSpecials" duration-ms="107" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewSpecials -->
+        <test-method status="PASS" signature="verifyOverViewNewProducts()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewNewProducts" duration-ms="151" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewNewProducts -->
+        <test-method status="PASS" signature="verifyOverViewBestsellers()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewBestsellers" duration-ms="37" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewBestsellers -->
+        <test-method status="PASS" signature="verifyOverViewOurStores()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewOurStores" duration-ms="29" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewOurStores -->
+        <test-method status="PASS" signature="verifyOverViewContactus()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewContactus" duration-ms="36" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewContactus -->
+        <test-method status="PASS" signature="verifyOverViewTermsandconditionofuse()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewTermsandconditionofuse" duration-ms="78" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewTermsandconditionofuse -->
+        <test-method status="PASS" signature="verifyOverViewAboutus()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewAboutus" duration-ms="44" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewAboutus -->
+        <test-method status="PASS" signature="verifyOverViewSitemap()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewSitemap" duration-ms="37" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewSitemap -->
+        <test-method status="PASS" signature="verifyOverViewMyorders()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewMyorders" duration-ms="26" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewMyorders -->
+        <test-method status="PASS" signature="verifyOverViewMycreditslips()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewMycreditslips" duration-ms="29" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewMycreditslips -->
+        <test-method status="PASS" signature="verifyOverViewMyaddresses()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewMyaddresses" duration-ms="30" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewMyaddresses -->
+        <test-method status="PASS" signature="verifyOverViewMypersonalinfo()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewMypersonalinfo" duration-ms="30" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewMypersonalinfo -->
+        <test-method status="PASS" signature="verifyOverViewWomen()[pri:0, instance:loginTest.OverViewTest@2f7a2457]" name="verifyOverViewWomen" duration-ms="32" started-at="2021-06-10T17:30:15Z" finished-at="2021-06-10T17:30:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverViewWomen -->
+      </class> <!-- loginTest.OverViewTest -->
+    </test> <!-- over view page -->
+    <test name="ContactUsTest" duration-ms="15816" started-at="2021-06-10T17:30:20Z" finished-at="2021-06-10T17:30:36Z">
+      <class name="loginTest.ContactUsTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:loginTest.ContactUsTest@13969fbe]" name="init" is-config="true" duration-ms="5308" started-at="2021-06-10T17:30:20Z" finished-at="2021-06-10T17:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyContactUs()[pri:0, instance:loginTest.ContactUsTest@13969fbe]" name="verifyContactUs" duration-ms="10501" started-at="2021-06-10T17:30:26Z" finished-at="2021-06-10T17:30:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs -->
+      </class> <!-- loginTest.ContactUsTest -->
+    </test> <!-- ContactUsTest -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
